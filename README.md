@@ -1,7 +1,7 @@
-# Online-Shop
+# React-Online-Shop
 
 ## Overview
-Online-Shop is a modern e-commerce web application built with React. It provides a clean, responsive interface for browsing products from the Fake Store API. The application demonstrates best practices in React development, including component structure, routing, and API integration.
+React-Online-Shop is a modern e-commerce web application built with React. It provides a clean, responsive interface for browsing products from the Fake Store API. The application demonstrates best practices in React development, including component structure, routing, and API integration.
 
 ## Features
 - **Responsive Design**: Fully responsive layout that works on mobile, tablet, and desktop devices
@@ -45,6 +45,20 @@ Online-Shop is a modern e-commerce web application built with React. It provides
 ├── README.md            # Project documentation
 └── vite.config.js       # Vite configuration
 ```
+
+## Screenshots
+
+### Home Page
+![Home Page](screenshots/Screenshot 2025-07-30 212455.png)
+
+### Product Catalog
+![Product Catalog](screenshots/Screenshot 2025-07-30 212511.png)
+
+### Product Details
+![Product Details](screenshots/Screenshot 2025-07-30 212525.png)
+
+### Cart/Checkout
+![Cart/Checkout](screenshots/Screenshot 2025-07-30 212543.png)
 
 ## Acknowledgements
 - [Fake Store API](https://fakestoreapi.com/) for providing the product data
