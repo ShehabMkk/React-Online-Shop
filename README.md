@@ -1,7 +1,7 @@
-# React Store
+# Online-Shop
 
 ## Overview
-React Store is a modern e-commerce web application built with React. It provides a clean, responsive interface for browsing products from the Fake Store API. The application demonstrates best practices in React development, including component structure, routing, and API integration.
+Online-Shop is a modern e-commerce web application built with React. It provides a clean, responsive interface for browsing products from the Fake Store API. The application demonstrates best practices in React development, including component structure, routing, and API integration.
 
 ## Features
 - **Responsive Design**: Fully responsive layout that works on mobile, tablet, and desktop devices
