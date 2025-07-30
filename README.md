@@ -54,10 +54,13 @@ React-Online-Shop is a modern e-commerce web application built with React. It pr
 ### Product Catalog
 ![Product Catalog](screenshots/Screenshot_2025-07-30_212511.png)
 
-![Product Details](screenshots/Screenshot_2025-07-30_212525.png)
+![Product Catalog](screenshots/Screenshot_2025-07-30_212525.png)
 
 ### Product Details
-![Cart/Checkout](screenshots/Screenshot_2025-07-30_212543.png)
+![Product Details](screenshots/Screenshot_2025-07-30_212543.png)
+
+### Not Found
+![Not Found](screenshots/image.png)
 
 ## Acknowledgements
 - [Fake Store API](https://fakestoreapi.com/) for providing the product data
