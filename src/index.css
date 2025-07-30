@@ -1,0 +1,78 @@
+:root {
+  --primary: #6a11cb;
+  --secondary: #2575fc;
+  --accent: #ffb347;
+  --background-gradient: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+  --text-main: #f4f4f4;
+  --text-dark: #22223b;
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: var(--text-main);
+  background-color: #24243e;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: var(--background-gradient) fixed;
+  color: var(--text-main);
+}
+
+a {
+  font-weight: 500;
+  color: var(--primary);
+  text-decoration: inherit;
+}
+a:hover {
+  color: var(--secondary);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--text-dark);
+}
+
+button, .btn-primary {
+  background: var(--primary);
+  color: #fff;
+  border: none;
+}
+button:hover, .btn-primary:hover {
+  background: var(--secondary);
+}
+.btn-success {
+  background: #43e97b;
+  border: none;
+}
+.btn-success:hover {
+  background: #38f9d7;
+}
+.btn-outline-secondary {
+  border-color: var(--secondary);
+  color: var(--secondary);
+}
+.btn-outline-secondary:hover {
+  background: var(--secondary);
+  color: #fff;
+}
+.bg-light {
+  background: rgba(255,255,255,0.95) !important;
+}
+.bg-dark {
+  background: #22223b !important;
+}
+.text-primary {
+  color: var(--primary) !important;
+}
+.text-success {
+  color: #43e97b !important;
+}
+.text-light {
+  color: #f4f4f4 !important;
+}
