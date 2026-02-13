@@ -1,16 +1,19 @@
 :root {
-  --primary: #6a11cb;
-  --secondary: #2575fc;
-  --accent: #ffb347;
-  --background-gradient: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
-  --text-main: #f4f4f4;
-  --text-dark: #22223b;
+  --primary: #00d4ff;
+  --secondary: #0099cc;
+  --accent: #ff6b6b;
+  --background-gradient: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);
+  --text-main: #ffffff;
+  --text-secondary: #b0c4de;
+  --text-dark: #1a1a2e;
+  --card-bg: rgba(255, 255, 255, 0.08);
+  --card-border: rgba(255, 255, 255, 0.15);
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
   color-scheme: light dark;
   color: var(--text-main);
-  background-color: #24243e;
+  background-color: #0f2027;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -35,7 +38,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: var(--text-dark);
+  color: var(--text-main);
 }
 
 button, .btn-primary {

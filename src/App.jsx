@@ -6,6 +6,7 @@ import ProductDetails from './pages/ProductDetails';
 import NotFound from './pages/NotFound';
 import Footer from './components/Footer';
 import Home from './pages/Home';
+import AboutUs from './pages/AboutUs';
 import './App.css';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/products" element={<ProductCatalog />} />
         <Route path="/products/:id" element={<ProductDetails />} />
+        <Route path="/about" element={<AboutUs />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
